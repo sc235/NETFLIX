@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #030406;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: #020101;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: rgb(248, 246, 246);
+    text-decoration:dotted;
+    font-size: 16px;
+}
+
+.profile img {
+    width: 35px;
+    border-radius: 5px;
+}
+
+
+.hero {
+    height: 90vh;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/2c84b3d1-d6ad-4083-b421-2022fdde8280/019c8b9b-09ab-4e8e-9a86-e9440d1c64b2/FR-fr-20230220-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px; 
+}
+
+.hero-content {
+    color: rgb(250, 249, 249);
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 95px;
+}
+
+.hero button:hover {
+    background-color: #dbdbe9;
+}
+
+
+.series-qwerty {
+    padding: 40px;
+    cursor: pointer;
+}
+
+.series-qwerty h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.qwerty {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.series img {
+    width: 100%;
+    border-radius: 23px;
+    transition: transform 0.3s ;
+}
+
+.series img:hover {
+    transform: scale(1.1);
+}
+.snowfall{
+    text-align: center;
+    cursor: pointer;
+    padding: 12px;
+}
+.harlem{
+    text-align: center;
+    padding: 12px;
+}
+.ghost{
+    text-align: center;
+    padding: 12px;
+}
+.bmf{
+    text-align: center;
+    padding: 12px;
+}
+.wolf{
+    text-align: center;
+    padding: 12px;
+}
